@@ -17,3 +17,4 @@ C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\Ta
 C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.exe
 C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.csprojAssemblyReference.cache
