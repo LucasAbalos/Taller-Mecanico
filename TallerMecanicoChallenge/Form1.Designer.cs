@@ -67,7 +67,6 @@ namespace TallerMecanicoChallenge
             this.label1.Size = new System.Drawing.Size(456, 24);
             this.label1.TabIndex = 2;
             this.label1.Text = "Promedio del monto total de Presupuestos por marca";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -115,7 +114,6 @@ namespace TallerMecanicoChallenge
             this.button5.TabIndex = 7;
             this.button5.Text = "Ingresar Moto";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label4
             // 
@@ -126,7 +124,6 @@ namespace TallerMecanicoChallenge
             this.label4.Size = new System.Drawing.Size(435, 24);
             this.label4.TabIndex = 8;
             this.label4.Text = "Ingresar Vehiculo para diagnosticar y presupuestar";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
