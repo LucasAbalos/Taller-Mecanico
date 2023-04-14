@@ -8,3 +8,13 @@ C:\Users\Lucas\source\repos\TallerMecanicoChallenge\TallerMecanicoChallenge\obj\
 C:\Users\Lucas\source\repos\TallerMecanicoChallenge\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.exe
 C:\Users\Lucas\source\repos\TallerMecanicoChallenge\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.pdb
 C:\Users\Lucas\source\repos\TallerMecanicoChallenge\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.Form1.resources
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\bin\Debug\TallerMecanicoChallenge.exe.config
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\bin\Debug\TallerMecanicoChallenge.exe
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\bin\Debug\TallerMecanicoChallenge.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.csprojAssemblyReference.cache
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.Form1.resources
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.Properties.Resources.resources
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.csproj.GenerateResource.cache
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.exe
+C:\Users\Lucas\source\repos\Taller-Mecanico\TallerMecanicoChallenge\obj\Debug\TallerMecanicoChallenge.pdb
