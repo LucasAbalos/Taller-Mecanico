@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanicoChallenge", "TallerMecanicoChallenge\TallerMecanicoChallenge.csproj", "{586C19F9-326F-4CA8-B047-E678671C9430}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "TallerMecanicoChallenge\View.csproj", "{586C19F9-326F-4CA8-B047-E678671C9430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{BD15FF76-4A51-47C0-B191-D2D442081388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{F054CB2B-78DB-4A85-8A46-B1309F11250B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{586C19F9-326F-4CA8-B047-E678671C9430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{586C19F9-326F-4CA8-B047-E678671C9430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{586C19F9-326F-4CA8-B047-E678671C9430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD15FF76-4A51-47C0-B191-D2D442081388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD15FF76-4A51-47C0-B191-D2D442081388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD15FF76-4A51-47C0-B191-D2D442081388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD15FF76-4A51-47C0-B191-D2D442081388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F054CB2B-78DB-4A85-8A46-B1309F11250B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F054CB2B-78DB-4A85-8A46-B1309F11250B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F054CB2B-78DB-4A85-8A46-B1309F11250B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F054CB2B-78DB-4A85-8A46-B1309F11250B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
