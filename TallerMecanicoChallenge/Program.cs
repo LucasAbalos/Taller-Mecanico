@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,11 @@ namespace TallerMecanicoChallenge
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
+
+            ClienteController cliente = new ClienteController();
+
+            cliente.ABMClientes("nom","ape","dni","dir","tel","mail");
         }
     }
 }
