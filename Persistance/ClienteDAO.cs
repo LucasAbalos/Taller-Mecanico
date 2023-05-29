@@ -22,35 +22,94 @@ namespace Persistance
                 ConexionBD conec = new ConexionBD();
                 SqlConnection connection = conec.devConexion();
 
-                // Crear un objeto SqlDataAdapter para obtener los datos de la tabla Cliente
-                string selectQuery = "SELECT * FROM Cliente";
-                SqlDataAdapter dataAdapter = new SqlDataAdapter(selectQuery, connection);
+                // Crear un objeto SqlCommand para invocar el stored procedure InsertarCliente
+                SqlCommand command = new SqlCommand("InsertarCliente", connection);
+                command.CommandType = CommandType.StoredProcedure;
 
-                // Crear un objeto SqlCommandBuilder para generar los comandos INSERT, UPDATE y DELETE automáticamente
-                SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
+                // Agregar parámetros al stored procedure
+                command.Parameters.AddWithValue("@nombre", cliente.Nombre);
+                command.Parameters.AddWithValue("@apellido", cliente.Apellido);
+                command.Parameters.AddWithValue("@dni", cliente.DNI);
+                command.Parameters.AddWithValue("@direccion", cliente.Direccion);
+                command.Parameters.AddWithValue("@telefono", cliente.Telefono);
+                command.Parameters.AddWithValue("@email", cliente.Email);
 
-                // Obtener los datos de la tabla Cliente en un objeto DataSet
-                DataSet dataset = new DataSet();
-                dataAdapter.Fill(dataset, "Cliente");
+                // Abrir la conexión
+                connection.Open();
 
-                // Crear una nueva fila en el objeto DataTable de la tabla Cliente
-                DataRow newRow = dataset.Tables["Cliente"].NewRow();
-                newRow["nombre"] = cliente.Nombre;
-                newRow["apellido"] = cliente.Apellido;
-                newRow["dni"] = cliente.DNI;
-                newRow["direccion"] = cliente.Direccion;
-                newRow["telefono"] = cliente.Telefono;
-                newRow["email"] = cliente.Email;
+                // Ejecutar el stored procedure
+                command.ExecuteNonQuery();
 
-                // Agregar la nueva fila al objeto DataTable de la tabla Cliente
-                dataset.Tables["Cliente"].Rows.Add(newRow);
-
-                // Guardar los cambios en la base de datos
-                dataAdapter.Update(dataset, "Cliente");
+                // Cerrar la conexión
+                connection.Close();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error al insertar los registros: " + ex.Message);
+            }
+        }
+
+        public void EliminarCliente(int clienteId)
+        {
+            try
+            {
+                ConexionBD conec = new ConexionBD();
+                SqlConnection connection = conec.devConexion();
+
+                // Crear un objeto SqlCommand para invocar el stored procedure EliminarCliente
+                SqlCommand command = new SqlCommand("EliminarCliente", connection);
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                // Agregar parámetro al stored procedure
+                command.Parameters.AddWithValue("@clienteId", clienteId);
+
+                // Abrir la conexión
+                connection.Open();
+
+                // Ejecutar el stored procedure
+                command.ExecuteNonQuery();
+
+                // Cerrar la conexión
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al eliminar el cliente: " + ex.Message);
+            }
+        }
+
+        public void ActualizarCliente(Cliente cliente)
+        {
+            try
+            {
+                ConexionBD conec = new ConexionBD();
+                SqlConnection connection = conec.devConexion();
+
+                // Crear un objeto SqlCommand para invocar el stored procedure ActualizarCliente
+                SqlCommand command = new SqlCommand("ActualizarCliente", connection);
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+
+                // Agregar parámetros al stored procedure
+                command.Parameters.AddWithValue("@clienteId", cliente.Id);
+                command.Parameters.AddWithValue("@nombre", cliente.Nombre);
+                command.Parameters.AddWithValue("@apellido", cliente.Apellido);
+                command.Parameters.AddWithValue("@dni", cliente.DNI);
+                command.Parameters.AddWithValue("@direccion", cliente.Direccion);
+                command.Parameters.AddWithValue("@telefono", cliente.Telefono);
+                command.Parameters.AddWithValue("@email", cliente.Email);
+
+                // Abrir la conexión
+                connection.Open();
+
+                // Ejecutar el stored procedure
+                command.ExecuteNonQuery();
+
+                // Cerrar la conexión
+                connection.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al actualizar el cliente: " + ex.Message);
             }
         }
     }

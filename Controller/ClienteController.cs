@@ -17,5 +17,17 @@ namespace Controller
             ClienteDAO clienteDAO = new ClienteDAO();
             clienteDAO.InsertarCliente(cliente);
         }
+
+        public void EliminarCliente(int idCliente)
+        {
+            ClienteDAO clienteDAO = new ClienteDAO();
+            clienteDAO.EliminarCliente(idCliente);
+        }
+
+        public void ActualizarCliente(Cliente cliente)
+        {
+            ClienteDAO clienteDAO = new ClienteDAO();
+            clienteDAO.ActualizarCliente(cliente);
+        }
     }
 }

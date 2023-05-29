@@ -26,6 +26,10 @@ namespace TallerMecanicoChallenge
             ClienteController clienteController = new ClienteController();
 
             clienteController.AgregarCliente(cliente);
+
+            clienteController.EliminarCliente(cliente.Id);
+
+            clienteController.ActualizarCliente(cliente);
         }
     }
 }

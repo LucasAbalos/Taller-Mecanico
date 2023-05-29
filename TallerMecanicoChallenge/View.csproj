@@ -92,6 +92,7 @@
   <ItemGroup>
     <Content Include="Scripts\202304\20230416-01-Creacion de SP MassiveCharge.sql" />
     <Content Include="Scripts\202304\20230413-01-Creacion de Tablas.sql" />
+    <Content Include="Scripts\202305\20230528-01-Creacion de SP InsertarCliente.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
