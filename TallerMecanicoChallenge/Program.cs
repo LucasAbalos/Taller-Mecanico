@@ -18,7 +18,7 @@ namespace TallerMecanicoChallenge
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
+            Application.Run(new Form1());
 
 
             Cliente cliente = new Cliente("nom", "ape", "dni", "dir", "tel", "mail");

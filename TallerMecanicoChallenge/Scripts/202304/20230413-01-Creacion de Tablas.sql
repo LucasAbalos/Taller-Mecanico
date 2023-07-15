@@ -18,7 +18,7 @@ CREATE TABLE Vehiculo (
 
 CREATE TABLE Auto (
     id INT PRIMARY KEY IDENTITY(1,1),
-    tipo INT NOT NULL,
+    tipo VARCHAR(100) NOT NULL,
 	cantidad_puertas INT NOT NULL,
     vehiculo_id INT NOT NULL FOREIGN KEY REFERENCES Vehiculo(id)
 );
@@ -37,11 +37,16 @@ CREATE TABLE Presupuesto (
     costo_total DECIMAL(8,2) NOT NULL
 );
 
-CREATE TABLE Desperfecto (
+CREATE TABLE Falla (
     id INT PRIMARY KEY IDENTITY(1,1),
     descripcion VARCHAR(100) NOT NULL,
-    costo_manobra DECIMAL(8,2) NOT NULL,
+    costo_mano_obra DECIMAL(8,2) NOT NULL,
     tiempo_estimado INT NOT NULL,
+);
+
+CREATE TABLE Desperfecto (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    falla_id INT NOT NULL FOREIGN KEY REFERENCES Falla(id),
 	presupuesto_id INT NOT NULL FOREIGN KEY REFERENCES Presupuesto(id)
 );
 
@@ -55,5 +60,6 @@ CREATE TABLE Desperfecto_Repuesto (
 	id INT PRIMARY KEY IDENTITY(1,1),
     desperfecto_id INT NOT NULL FOREIGN KEY REFERENCES Desperfecto(id),
     repuesto_id INT NOT NULL FOREIGN KEY REFERENCES Repuesto(id),
-    cantidad INT NOT NULL
+    --cantidad INT NOT NULL POR AHORA NO LA VOY A USAR
 );
+
