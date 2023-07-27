@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Controller/obj/Debug/Controller.csproj.AssemblyReference.cache
+/Persistance/obj/Debug/Persistance.csproj.AssemblyReference.cache
+/TallerMecanicoChallenge/obj/Debug/View.csproj.AssemblyReference.cache
