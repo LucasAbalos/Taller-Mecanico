@@ -1,0 +1,9 @@
+D:\LucasA\Persistance\bin\Debug\Persistance.dll
+D:\LucasA\Persistance\bin\Debug\Persistance.pdb
+D:\LucasA\Persistance\bin\Debug\Model.dll
+D:\LucasA\Persistance\bin\Debug\Model.pdb
+D:\LucasA\Persistance\obj\Debug\Persistance.csproj.AssemblyReference.cache
+D:\LucasA\Persistance\obj\Debug\Persistance.csproj.CoreCompileInputs.cache
+D:\LucasA\Persistance\obj\Debug\Persistance.csproj.CopyComplete
+D:\LucasA\Persistance\obj\Debug\Persistance.dll
+D:\LucasA\Persistance\obj\Debug\Persistance.pdb

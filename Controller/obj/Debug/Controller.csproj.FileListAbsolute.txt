@@ -1,0 +1,11 @@
+D:\LucasA\Controller\bin\Debug\Controller.dll
+D:\LucasA\Controller\bin\Debug\Controller.pdb
+D:\LucasA\Controller\bin\Debug\Model.dll
+D:\LucasA\Controller\bin\Debug\Persistance.dll
+D:\LucasA\Controller\bin\Debug\Model.pdb
+D:\LucasA\Controller\bin\Debug\Persistance.pdb
+D:\LucasA\Controller\obj\Debug\Controller.csproj.AssemblyReference.cache
+D:\LucasA\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+D:\LucasA\Controller\obj\Debug\Controller.csproj.CopyComplete
+D:\LucasA\Controller\obj\Debug\Controller.dll
+D:\LucasA\Controller\obj\Debug\Controller.pdb

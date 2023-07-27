@@ -1,0 +1,6 @@
+D:\LucasA\Model\bin\Debug\Model.dll
+D:\LucasA\Model\bin\Debug\Model.pdb
+D:\LucasA\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\LucasA\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\LucasA\Model\obj\Debug\Model.dll
+D:\LucasA\Model\obj\Debug\Model.pdb
