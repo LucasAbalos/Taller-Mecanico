@@ -17,5 +17,6 @@ namespace Model.Vehiculos
             Tipo = tipo;
             CantidadPuertas = cantidadPuertas;
         }
+        public Auto() { }
     }
 }

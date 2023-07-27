@@ -21,5 +21,6 @@ namespace Model.Vehiculos
             Patente = patente;
             Cliente = cliente;
         }
+        public Vehiculo() { }
     }
 }

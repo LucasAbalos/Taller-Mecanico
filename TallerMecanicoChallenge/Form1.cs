@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Model.Vehiculos;
+using Model;
 
 namespace TallerMecanicoChallenge
 {
@@ -48,6 +49,39 @@ namespace TallerMecanicoChallenge
                 txtCilindrada.Hide();
                 lblCilindrada.Hide();
             }
+        }
+
+        private void btnDiagnosticar_Click(object sender, EventArgs e)
+        {
+            Cliente cliente = new Cliente();
+            cliente.Nombre = txtNombre.Text;
+            cliente.Apellido = txtApellido.Text;
+            cliente.DNI = txtDNI.Text;
+            cliente.Direccion = txtDireccion.Text;
+            cliente.Telefono = txtTelefono.Text;
+            cliente.Email = txtEmail.Text;
+
+            if (cbTipoVehiculo.SelectedItem.Equals("Moto"))
+            {
+                Moto moto = new Moto();
+                moto.Cilindrada = 1;
+                moto.Marca = txtMarca.Text;
+                moto.Modelo = txtModelo.Text;
+                moto.Patente = txtPatente.Text;
+                moto.Cliente = cliente;
+            }
+            else
+            {
+                Auto auto = new Auto();
+                auto.CantidadPuertas = (int)cbCantidadPuertas.SelectedValue;
+                auto.Tipo = (TipoAuto)cbTipoVehiculo.SelectedValue;
+                auto.Marca = txtMarca.Text;
+                auto.Modelo = txtModelo.Text;
+                auto.Patente = txtPatente.Text;
+                auto.Cliente = cliente;
+            }
+
+
         }
     }
 }

@@ -15,5 +15,6 @@ namespace Model.Vehiculos
         {
             Cilindrada = cilindrada;
         }
+        public Moto() { }
     }
 }

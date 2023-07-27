@@ -25,5 +25,8 @@ namespace Model
             Telefono = telefono;
             Email = email;
         }
+        public Cliente()
+        { 
+        }
     }
 }
