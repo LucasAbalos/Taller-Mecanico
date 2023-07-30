@@ -1,0 +1,6 @@
+C:\Users\Lucas\source\repos\Taller-Mecanico\Model\bin\Debug\Model.dll
+C:\Users\Lucas\source\repos\Taller-Mecanico\Model\bin\Debug\Model.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Lucas\source\repos\Taller-Mecanico\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\Taller-Mecanico\Model\obj\Debug\Model.dll
+C:\Users\Lucas\source\repos\Taller-Mecanico\Model\obj\Debug\Model.pdb
