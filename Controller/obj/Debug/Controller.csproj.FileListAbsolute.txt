@@ -13,3 +13,10 @@ C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.cspr
 C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
 C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.dll
 C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\bin\Debug\Controller.dll
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\bin\Debug\Controller.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\bin\Debug\Model.dll
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\bin\Debug\Persistance.dll
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\bin\Debug\Model.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\bin\Debug\Persistance.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.csproj.CopyComplete
