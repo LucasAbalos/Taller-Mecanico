@@ -9,3 +9,7 @@ D:\LucasA\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
 D:\LucasA\Controller\obj\Debug\Controller.csproj.CopyComplete
 D:\LucasA\Controller\obj\Debug\Controller.dll
 D:\LucasA\Controller\obj\Debug\Controller.pdb
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.dll
+C:\Users\Lucas\source\repos\Taller-Mecanico\Controller\obj\Debug\Controller.pdb
